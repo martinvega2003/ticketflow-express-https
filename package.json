@@ -14,8 +14,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "ts-node server.ts"
+    "start": "node dist/server.js",
+    "dev": "node --loader ts-node/esm server.ts",
+    "build": "tsc"
   },
   "type": "module",
   "keywords": [],
