@@ -1,5 +1,17 @@
 {
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "name": "ticketflow-express",
+  "version": "1.0.0",
+  "description": "Simple, basic and secure HTTPS server built with Node.js and Express using a self-signed TLS certificate, basic firewall rules, and initial OAuth setup. This project demonstrates key web security fundamentals such as HTTPS configuration, basic firewall rules, and Single Sign-On (SSO) integration concepts.",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
