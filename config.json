@@ -1,0 +1,11 @@
+{
+  "port": 3443,
+  "tls": {
+    "keyPath": "./certs/key.pem",
+    "certPath": "./certs/cert.pem"
+  },
+  "oauth": {
+    "clientID": "511753985974-ke70bv07ifkiaop93sq70da9pc0vairk.apps.googleusercontent.com",
+    "callbackURL": "<https://localhost:3443/auth/google/callback>"
+  }
+}
