@@ -24,7 +24,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/server.js",
     "dev": "node --loader ts-node/esm server.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "regen-params": "python3 scripts/regen_params.py"
   },
   "type": "module",
   "keywords": [],
