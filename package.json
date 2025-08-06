@@ -25,7 +25,9 @@
     "start": "node dist/server.js",
     "dev": "node --loader ts-node/esm server.ts",
     "build": "tsc",
-    "regen-params": "python3 scripts/regen_params.py"
+    "regen": "python3 scripts/regen_params.py",
+    "health": "python3 scripts/health_check.py",
+    "automation": "npm run regen && npm run health"
   },
   "type": "module",
   "keywords": [],
