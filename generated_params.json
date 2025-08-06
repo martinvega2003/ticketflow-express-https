@@ -1,0 +1,6 @@
+{
+  "serverPort": 3443,
+  "tlsKey": "/Users/josevega/Desktop/Programming/Projects/TicketFlow Express/certs/key.pem",
+  "tlsCert": "/Users/josevega/Desktop/Programming/Projects/TicketFlow Express/certs/cert.pem",
+  "oauthRedirect": "<https://localhost:3443/auth/google/callback>"
+}
