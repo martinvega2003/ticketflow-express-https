@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
     "passport": "^0.7.0",
@@ -10,6 +11,7 @@
   "description": "Simple, basic and secure HTTPS server built with Node.js and Express using a self-signed TLS certificate, basic firewall rules, and initial OAuth setup. This project demonstrates key web security fundamentals such as HTTPS configuration, basic firewall rules, and Single Sign-On (SSO) integration concepts.",
   "main": "server.js",
   "devDependencies": {
+    "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.3",
     "@types/express-session": "^1.18.2",
     "@types/node": "^24.2.0",
