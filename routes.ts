@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
 import passport from 'passport';
-import { ensureAuthenticated } from './middlewares';
+import { ensureAuthenticated } from './middlewares.js';
 import { v4 as uuidv4 } from 'uuid';
 
 export function configureRoutes(app: express.Application) {

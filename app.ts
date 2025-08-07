@@ -2,9 +2,9 @@ import express from 'express';
 import dotenv from 'dotenv';
 dotenv.config();
 
-import { configurePassport } from './passport'; // Import passport configuration
-import { configureMiddlewares } from './middlewares'; // Import middlewares configuration
-import { configureRoutes } from './routes'; // Import routes configuration
+import { configurePassport } from './passport.js'; // Import passport configuration
+import { configureMiddlewares } from './middlewares.js'; // Import middlewares configuration
+import { configureRoutes } from './routes.js'; // Import routes configuration
 
 const app = express();
 
