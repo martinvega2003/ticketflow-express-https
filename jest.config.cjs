@@ -1,4 +1,3 @@
-
 module.exports = {
   preset: 'ts-jest/presets/default-esm', // Use ts-jest preset for ESM
   testEnvironment: 'node', // Use Node.js environment
@@ -17,4 +16,3 @@ module.exports = {
   },
   testMatch: ['**/__tests__/**/*.+(ts|js)', '**/?(*.)+(spec|test).+(ts|js)'] // Match test files
 };
-
