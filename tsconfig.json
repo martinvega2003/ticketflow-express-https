@@ -6,8 +6,9 @@
     "strict": true,
     "esModuleInterop": true,
     "outDir": "dist",
-    "rootDir": "."
+    "rootDir": ".",
+    "isolatedModules": true,
   },
-  "include": ["server.ts"],
+  "include": ["server.ts", "app.ts", "routes.ts", "middlewares.ts", "passport.ts"],
   "exclude": ["dist", "node_modules"]
 }
