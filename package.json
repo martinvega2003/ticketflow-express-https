@@ -28,7 +28,7 @@
     "typescript": "^5.9.2"
   },
   "scripts": {
-    "test": "jest --config jest.config.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "start": "node dist/server.js",
     "dev": "node --loader ts-node/esm server.ts",
     "build": "tsc",
