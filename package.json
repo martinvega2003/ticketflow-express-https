@@ -37,7 +37,8 @@
     "build": "tsc",
     "regen": "python3 scripts/regen_params.py",
     "health": "python3 scripts/health_check.py",
-    "automation": "npm run regen && npm run health"
+    "automation": "npm run regen && npm run health",
+    "seed": "node --loader ts-node/esm scripts/seed_db.ts"
   },
   "type": "module",
   "keywords": [],
