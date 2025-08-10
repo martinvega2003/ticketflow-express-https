@@ -5,6 +5,8 @@
     "express-session": "^1.18.2",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
     "uuid": "^11.1.0"
   },
   "name": "ticketflow-express",
@@ -19,6 +21,7 @@
     "@types/node": "^24.2.0",
     "@types/passport": "^1.0.17",
     "@types/passport-google-oauth20": "^2.0.16",
+    "@types/sqlite3": "^3.1.11",
     "@types/supertest": "^6.0.3",
     "@types/uuid": "^10.0.0",
     "jest": "^30.0.5",
