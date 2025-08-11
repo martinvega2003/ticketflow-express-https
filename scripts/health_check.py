@@ -9,12 +9,15 @@ def main():
     # 1) Launch curl with --insecure to ignore self-signed
     try:
         result = subprocess.run( # Execute curl command
-            ["curl", "--insecure", "--silent", "--write-out", "%{http_code}", URL], # --silent to suppress progress meter
+            ["curl", "--insecure", "--silent", "--write-out", "\n%{http_code}", URL], # --silent to suppress progress meter
             capture_output=True, # Capture output
             text=True, # Return output as string
             timeout=5 # Timeout after 5 seconds
         )
-        status = result.stdout.strip()
+        
+        # Separa body y code by the last line break
+        body, code = result.stdout.rsplit("\n", 1)
+        status = code.strip()
     except Exception as e:
         status = f"ERROR: {e}"
 
